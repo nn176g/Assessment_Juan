@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211108161027_first-commit.cs" />
+    <Compile Remove="Migrations\20211108161027_first-commit.Designer.cs" />
+    <Compile Remove="Migrations\20211108161151_first-commit.cs" />
+    <Compile Remove="Migrations\20211108161151_first-commit.Designer.cs" />
+    <Compile Remove="Migrations\20211108161543_first-commit.cs" />
+    <Compile Remove="Migrations\20211108161543_first-commit.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ssessment_Juan.Model\Assessment_Juan.Model.csproj" />
+  </ItemGroup>
+
+</Project>

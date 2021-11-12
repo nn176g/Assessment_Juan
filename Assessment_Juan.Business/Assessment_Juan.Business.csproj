@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assessment_Juan.Integracion\Assessment_Juan.Integracion.csproj" />
+    <ProjectReference Include="..\ssessment_Juan.Model\Assessment_Juan.Model.csproj" />
+  </ItemGroup>
+
+</Project>
